@@ -1,0 +1,135 @@
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header .navbar .logo{
+	float: left;
+	margin-top: 10px;
+}
+
+.header .navbar .menu{
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin-top: 50px;
+	background-color: #74bf46;
+}
+
+.imgfond{
+	background-image: url("img/img_fond2.png");
+	background-size: cover;
+}
+
+.accueil{
+	background-image: url("img/img_fond.png");
+	background-size: cover;
+}
+
+.header .navbar .menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.header .navbar .menu ul li{
+	display: inline-block;
+	margin: 0 25px;
+}
+
+.header .navbar ul li a{
+	color:#FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 540;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.header .home{
+	text-align: center;
+	color:#FFF;
+	margin: 100px;
+}
+
+h2{
+	font-size: 40px;
+}
+h3{
+	font-size: 40px;
+}
+h4{
+	font-size: 25px;
+}
+
+.textacc{
+	font-size: 20px;
+}
+
+li a:hover {
+border-bottom:3px #FFF solid;
+}
+
+.navbar ul li ul { display:none; }
+
+.navbar ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:5px;
+margin-left:-10px;
+}
+
+.navbar ul li:hover ul li {
+float:none;
+}
+
+.navbar ul li {
+list-style: none;
+line-height:44px;
+float:left;
+}
+
+.navbar ul li ul a {
+color:#FFF;
+padding:13px;
+font-size:14px;
+font-weight: 500;
+text-decoration:none;
+}
+
+.sous{
+	position: absolute;
+	background-color: #74bf46;
+}
+
+.competence{
+	float: left;
+	margin-right: 10px;
+	background-color: #74bf46;
+	padding-top: 10px;
+	color:	#293039;
+	width: 300px; 
+	height: 300px;
+	padding: 5px;
+	margin : 10px 0 10px 10px;
+}
+
+footer{
+	width: 1170px;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+}
+.copyright{
+	font-size: 14px;
+	text-align: left;
+	float: left;
+	color:#FFF;
+}
+
+.linkdin{
+	float: right;
+}
